@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://www.greenpress.info/logo.png
 tagline:
 actionText: Quick Start →
 actionLink: /guide/
