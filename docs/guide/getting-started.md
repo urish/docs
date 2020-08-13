@@ -2,7 +2,7 @@
 
 Before you start to contribute to Greenpress, we think it's essential you will know what the purpose of this platform.
 
-We truly believe that it's the best to be the client of your own product, in order to know what is the next important things to developer.
+We truly believe that it's the best to be the client of your own product, in order to know what is the next important things to develop.
 
 ## Installation
 The best way to create your own application is with the same ways the rest of the users and developers (that aren't contributors) will do - use the Greenpress CLI:
