@@ -8,12 +8,14 @@
 ## Open issues:
 [Open issues](https://github.com/greenpress/docs/issues)
 
-## Development
+## Documentation development
+
+Greenpress's documentation is based on VuePress. To run the documentation on your local machine, edit and test it, run the following:
 
 ```bash
 yarn dev
 yarn build
 ```
 
-For more details, please head VuePress's [documentation](https://v1.vuepress.vuejs.org/).
+For more details, please head to VuePress's [documentation](https://v1.vuepress.vuejs.org/).
 
