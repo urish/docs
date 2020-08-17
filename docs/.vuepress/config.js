@@ -27,11 +27,12 @@ module.exports = {
 	 * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
 	 */
 	themeConfig: {
-		repo: '',
-		editLinks: false,
-		docsDir: '',
-		editLinkText: '',
-		lastUpdated: false,
+		repo: 'greenpress/greenpress',
+		docsRepo: 'greenpress/docs',
+		editLinks: true,
+		docsDir: 'docs',
+		lastUpdated: true,
+		editLinkText: 'Help us improve this page!',
 		nav: [
 			{
 				text: 'Guide',
