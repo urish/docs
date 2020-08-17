@@ -84,7 +84,7 @@ module.exports = {
 ```
 
 
-### memory Limitation
+### Memory Limitation
 
 **Default: `(empty)`**
 
