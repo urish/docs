@@ -54,6 +54,7 @@ module.exports = {
 				path: '/guide/',
 				children: [
 					'/guide/getting-started',
+					'/guide/greenpress-configuration',
 				]
 			},
 			{
