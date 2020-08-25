@@ -99,3 +99,18 @@ module.exports = {
 }
 ```
 
+
+### MongoDB URI
+
+**Default: `'mongodb://localhost/greenpress'`**
+
+**Set by environment variable: `MONGODB_URI`**
+
+You can set a different mongoDB URI, in case your database doesn't exist on the local machine, which is probably the case for every production solution.
+In your development environment, you might want to set another URI if you want to manage you database instance separatly (and than it will be a good idea to [exclude db service](#excluded-services)
+
+```js
+module.exports = {
+  mongoUri: '[YOUR_MONGODB_URL]'
+}
+```
