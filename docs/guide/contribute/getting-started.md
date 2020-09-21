@@ -49,13 +49,11 @@ In the project's parent directory, create a [configuration file](https://docs.gr
 const IS_PROD = process.env.NODE_ENV === "production";
 
 module.exports = {
-  admin: "/dev/admin-panel/server.js",
-
   scripts: {
-    admin:
-      process.env.ADMIN_SERVICE_SCRIPT || IS_PROD
-        ? "./admin/server.js"
-        : "cd dev/admin-panel && npm run serve",
+    admin: {
+      cwd: "./dev/admin",
+      script: process.env.ADMIN_SERVICE_SCRIPT || (IS_PRO ? "server.js" : "npm run serve")
+    }
   },
 };
 ```
