@@ -36,12 +36,6 @@ Fork the repository of the micro-service you wish to contribute to (we will refe
 Navigate into the newly cloned subfolder, and run:
 
 ```bash
-$ yarn install
-```
-
-or
-
-```bash
 $ npm install
 ```
 
